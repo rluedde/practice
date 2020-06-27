@@ -54,6 +54,3 @@ def quicksort(arr, pivot = 0):
     arr[pivot + 1:] = quicksort(arr[pivot + 1:])
 
     return arr
-
-sortme = [-100,2,6,7,-3, 100, 47, 3, 8, 19]
-print(quicksort(sortme))
